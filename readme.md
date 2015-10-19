@@ -16,6 +16,7 @@ void OnInspectorGUI()
 
 Samples
 ----
+오브젝트의 프로퍼티들은 자동으로ㅗ타입에 맞는 에디터가 표시됩니다.
 ```c#
 public class Test
 {
@@ -31,7 +32,8 @@ public class Test
 }
 ```
 ![img](img/properties.png)<br>
-
+<br>
+프로퍼티를 정의하는 타입이 오브젝트일 경우, 해당 오브젝트에 대한 에디터가 표시됩니다.
 ```c#
 public class Hello
 {
@@ -49,7 +51,8 @@ public class Test
 }
 ```
 ![img](img/object.png)<br>
-
+<br>
+List 타입은 List 에디터가 표시됩니다. 이 List 에디터는 커스텀 클래스에 대한 리스트 에디터를 지원하지 않는 Unity 4 버전에서도 동작합니다.
 ```c#
 public class Test
 {
