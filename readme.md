@@ -1,7 +1,7 @@
 RefInspector.unity
 ====
 
-`MonoBehaviour`°¡ ¾Æ´Ñ ¿ÀºêÁ§Æ®¿¡ ´ëÇØ¼­ ÀÚµ¿À¸·Î ¿¡µðÅÍ¸¦ ¸¸µé¾îÁÝ´Ï´Ù.
+`MonoBehaviour`ê°€ ì•„ë‹Œ ì˜¤ë¸Œì íŠ¸ì— ëŒ€í•´ì„œ ìžë™ìœ¼ë¡œ ì—ë””í„°ë¥¼ ë§Œë“¤ì–´ì¤ë‹ˆë‹¤.
 
 Usage
 ----
@@ -16,7 +16,7 @@ void OnInspectorGUI()
 
 Samples
 ----
-¿ÀºêÁ§Æ®ÀÇ ÇÁ·ÎÆÛÆ¼µéÀº ÀÚµ¿À¸·Î¤ÇÅ¸ÀÔ¿¡ ¸Â´Â ¿¡µðÅÍ°¡ Ç¥½ÃµË´Ï´Ù.
+ì˜¤ë¸Œì íŠ¸ì˜ í”„ë¡œí¼í‹°ë“¤ì€ ìžë™ìœ¼ë¡œ íƒ€ìž…ì— ë§žëŠ” ì—ë””í„°ê°€ í‘œì‹œë©ë‹ˆë‹¤.
 ```c#
 public class Test
 {
@@ -33,7 +33,7 @@ public class Test
 ```
 ![img](img/properties.png)<br>
 <br>
-ÇÁ·ÎÆÛÆ¼¸¦ Á¤ÀÇÇÏ´Â Å¸ÀÔÀÌ ¿ÀºêÁ§Æ®ÀÏ °æ¿ì, ÇØ´ç ¿ÀºêÁ§Æ®¿¡ ´ëÇÑ ¿¡µðÅÍ°¡ Ç¥½ÃµË´Ï´Ù.
+í”„ë¡œí¼í‹°ë¥¼ ì •ì˜í•˜ëŠ” íƒ€ìž…ì´ ì˜¤ë¸Œì íŠ¸ì¼ ê²½ìš°, í•´ë‹¹ ì˜¤ë¸Œì íŠ¸ì— ëŒ€í•œ ì—ë””í„°ê°€ í‘œì‹œë©ë‹ˆë‹¤.
 ```c#
 public class Hello
 {
@@ -52,7 +52,7 @@ public class Test
 ```
 ![img](img/object.png)<br>
 <br>
-List Å¸ÀÔÀº List ¿¡µðÅÍ°¡ Ç¥½ÃµË´Ï´Ù. ÀÌ List ¿¡µðÅÍ´Â Ä¿½ºÅÒ Å¬·¡½º¿¡ ´ëÇÑ ¸®½ºÆ® ¿¡µðÅÍ¸¦ Áö¿øÇÏÁö ¾Ê´Â Unity 4 ¹öÀü¿¡¼­µµ µ¿ÀÛÇÕ´Ï´Ù.
+List íƒ€ìž…ì€ List ì—ë””í„°ê°€ í‘œì‹œë©ë‹ˆë‹¤. ì´ List ì—ë””í„°ëŠ” ì»¤ìŠ¤í…€ í´ëž˜ìŠ¤ì— ëŒ€í•œ ë¦¬ìŠ¤íŠ¸ ì—ë””í„°ë¥¼ ì§€ì›í•˜ì§€ ì•ŠëŠ” Unity 4 ë²„ì „ì—ì„œë„ ë™ìž‘í•©ë‹ˆë‹¤.
 ```c#
 public class Test
 {
